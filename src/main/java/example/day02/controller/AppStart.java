@@ -1,4 +1,4 @@
-package example.day2.controller;
+package example.day02.controller;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

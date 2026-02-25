@@ -1,10 +1,8 @@
-package example.day2.servlet;
+package example.day02.servlet;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.server.servlet.context.ServletComponentScan;
-
-import java.util.Arrays;
 
 @SpringBootApplication // 스프링부트 환경 의존성(미리 만들어진 코드) 주입
 // △ 모든 코드들은 ctrl+클릭하면 해당 코드로 이동한다.
