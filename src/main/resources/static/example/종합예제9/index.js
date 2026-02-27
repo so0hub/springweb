@@ -3,7 +3,6 @@ console.log("index.js open"); // 확인용
 // 요청 프로세스 : HTML -> JS -> SPRING ( CONTROLLER -> DAO ) -> MYSQL
 // 응답 프로세스 : HTML <- JS -> SPRING ( CONTROLLER -> DAO ) <- MYSQL
 
-
 // 1] 전체 조회 , 실행조건 : JS가 열렸을때 , 수정/등록/삭제 성공했을때
 const onFindAll = async ( ) => { 
     // 1. 어디에  , document.querySelector( 출력할위치 );
@@ -31,7 +30,7 @@ const onFindAll = async ( ) => {
 onFindAll( ); // JS가 열렸을때 
 
 // 2] 등록 , 실행조건 : 등록버튼을 눌렀을 때
-const onWrite = () => {
+const onWrite = async() => {
     // 1. DOM 객체 가져온다.
     const bcontentInput = document.querySelector("#bcontent");
     const bwriterInput = document.querySelector("#bwriter");
@@ -51,3 +50,35 @@ const onWrite = () => {
     }
     else{ alert("등록실패 : 관리자에게 문의 "); }
 } // fun end 
+
+
+// 4] 개별 삭제
+const onDelete = async(bno) => { // 1] 삭제할 번호를 매개변수로 받는다.
+    // 2] axios 활용하여 삭제할 번호를 서버에게 쿼리스트링으로 요청 / 응답 받는다.
+    const response = await axios.delete(`/board?bno=${bno}`);
+    const data = response.data;
+    // 3]
+    if(data == true){
+        alert("삭제성공");
+        onFindAll(); // 화면새로고침
+    }else{
+        alert("삭제실패 : 관리자에게 문의");
+    }
+} // f END
+
+// 3] 개별 수정
+const onUpdate = async( bno ) => { // 수정할 게시물 번호 매개변수로 받는다.
+    // 1) 새로운 수정할 내용 입력받기
+    const bcontent = prompt("수정할 내용");
+    // 2) 객체(Body) 구성 , 속성명과 대입할 변수명이 같다면 속성명 생략
+    const obj = {bno,bcontent} // vs {"bno":bno,"bcontent":bcontent}
+    // 3) axios 이용하여 서버에게 수정 요청 후 응답 받기
+    const response = await axios.put("/board",obj);
+    const data = response.data;
+    // 4) 결과 흐름 제어
+    if(data==true){
+        alert("수정성공")
+        onFindAll(); // ******* 화면 새로고침
+    }else{alert("수정실패");}
+
+}
