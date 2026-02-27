@@ -51,6 +51,3 @@ const onWrite = () => {
         else{ alert("등록실패 : 관리자에게 문의 "); }
 
     } // fun END
-
-
-    // 3] 개별 수정
