@@ -15,11 +15,11 @@
             <h3> 입력 구역 </h3>
             내용 : <input id = "bcontent" /> </br>  <!-- input : 입력상자 마크업 -->
             작성자 : <input id = "bwriter" /> </br> <!-- id : 마크업의 고유 식별명 -->
-            <button onclick="onWrite"> 등록하기 </button> <!-- onclick : 클릭했을 때 js함수 실행 -->
+            <button onclick="onWrite()"> 등록하기 </button> <!-- onclick : 클릭했을 때 js함수 실행 -->
         </div>
         <div>
             <h3> 출력 구역</h3>
-            <table>
+            <table id = "boardTable">
                 <thead>
                     <tr> <th> 번호 </th> <th> 내용 </th> <th> 작성자 </th> <th> 작성일 </th> <th> 비고 </th> </tr>
                 </thead>
