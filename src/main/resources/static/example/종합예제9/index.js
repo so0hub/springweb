@@ -42,12 +42,12 @@ const onWrite = () => {
     const obj = {"bcontent" : bcontent , "bwriter" : bwriter}
     // 4. (1개월차) 배열에 저장한다. --> (3개월차) AXIOS 이용하여 서버에게 저장 요청한다.
         // 동기화 AXIOS , 1] 현재 함수 앞에 async 키워드 붙인다. 2] axios 앞에 await 키워드 붙인다.
-    const response = await axios.post("/board" , obj); // axio.HTTP메소드명("통신할 주소",body본문)
+       const response = await axios.post( "/board" , obj ); // axios.HTTP메소드명( "통신할주소", body본문 )
     const data = response.data;
-     if( data == true ){ 
-        alert("등록성공"); bcontentInput.value = ''; bwriterInput.value = ''; // 입력상자에 입력한 값들 초기화
-        onFindAll(); // *************화면 새로고침***********
-        }
-        else{ alert("등록실패 : 관리자에게 문의 "); }
-
-    } // fun END
+    if( data == true ){ 
+        alert("등록성공"); 
+        bcontentInput.value = ''; bwriterInput.value = ''; // 입력상자에 입력한 값들 초기화
+        onFindAll(); // ******* 화면새로고침 *******
+    }
+    else{ alert("등록실패 : 관리자에게 문의 "); }
+} // fun end 
