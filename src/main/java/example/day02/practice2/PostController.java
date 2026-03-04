@@ -74,7 +74,7 @@ public class PostController {
         return map;
     }
 
-    //4. 개글 글 수정 PUT http://localhost:8080/practice2/post
+    //4. 개별 글 수정 PUT http://localhost:8080/practice2/post
     //요청자료 : x , 응답자료 : true 또는 false
 
     @PutMapping
