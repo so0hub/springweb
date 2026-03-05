@@ -17,7 +17,7 @@ public class GoodsEntity extends BaseTime {
 
     private Integer gno; // 제품번호
 
-    @Column( name = "제품명" , nullable = false , length = 100 , unique = true , insertable = true , updatable = true )
+    @Column( name = "제품명" , nullable = false , length = 100 ) // ( unique = true , insertable = true , updatable = true )
     private String gname; // 제품명
 
     @Column( columnDefinition = "varchar(100) default '제품설명' not null" )

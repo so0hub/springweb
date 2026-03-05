@@ -13,6 +13,8 @@ public class GoodsController {
     private GoodsService goodsService;
 
     // 저장
+    // http://localhost:8080/goods
+    // {"gname":"박소영","gdesc":"박진감","gprice":1000}
     @PostMapping("/goods")
     public boolean 저장( @RequestBody GoodsDto goodsDto ){
         boolean result = goodsService.저장( goodsDto );
@@ -20,6 +22,8 @@ public class GoodsController {
     }
 
     // 수정
+    // http://localhost:8080/goods
+    // {"gno" : 1,"gname": "박소영","gdesc": "박진감,"gprice":1000}
     @PutMapping("/goods")
     public boolean 수정( @RequestBody GoodsDto goodsDto ){
         boolean result = goodsService.수정( goodsDto );
