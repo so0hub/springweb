@@ -33,9 +33,9 @@ public class GoodsEntity extends BaseTime {
                 .gname( gname )
                 .gdesc( gdesc )
                 .gprice( gprice )
-                .createDate( )
-                .updateDate()
-                .build() // 빌더 끝
+                .createDate( getCreateDate().toString() ) // .toString 말고 .format() 해도 됨
+                .updateDate( getUpdateDate().toString() )
+                .build(); // 빌더 끝
     }
 
 } // class END
