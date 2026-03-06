@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <h3> 게시물 상세 </h3>
+    <a href="/종합예제10/index.html"> 뒤로가기 </a>
+    <div id = "boardBox">
+        제목 : <div> 박진감이라는 제목이 들어갈 자리 </div> </br>
+        작성자/작성일 : <div> 작성자가 들어갈 자리 / 작성일이 들어갈 자리 </div>
+        내용 : <div> 내용이 들어갈 자리 </div>
+        <button onclick="개별수정()"> 수정 </button>
+        <button onclick="개별삭제()"> 삭제 </button>
+        </hr>
+    </div>
+    <div>
+        <h3> 댓글 목록 </h3>
+        댓글 작성자 : <input class="rwriterInput"> </br>
+        댓글 내용 : <textarea class="bcontentInput"></textarea> <button onclick="댓글등록()"> 댓글등록 </button>
+    <div>
+
+        <div style="margin 20px 0px;">
+            <div><span>박진감</span><span>2026-03-06</span> <button>수정</button> <button>삭제</button></div>
+            <div>댓글 내용</div>
+        </div>
+        <div style="margin 20px 0px;">
+            <div><span>박진감</span><span>2026-03-06</span> <button>수정</button> <button>삭제</button></div>
+            <div>댓글 내용</div>
+        </div>
+        <div style="margin 20px 0px;">
+            <div><span>박진감</span><span>2026-03-06</span> <button>수정</button> <button>삭제</button></div>
+            <div>댓글 내용</div>
+        </div>
+    </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script> <!-- AXIOS CDN 설치 -->
+    <script src="detail.js"></script> <!-- 내가 만든 JS -->
+</body>
+</html>
+
+<!--이건 어차피 샘플임!!!!!!!!!!!!!!!!-->
