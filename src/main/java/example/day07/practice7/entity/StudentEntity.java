@@ -1,5 +1,6 @@
-package example.day07.practice7;
+package example.day07.practice7.entity;
 
+import example.day07.practice7.BaseTime;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -14,9 +15,8 @@ public class StudentEntity extends BaseTime {
     private Integer studentId; // 학생번호 // PK
     private String studentName; // 학생명
 
-    // 양방향
-    @OneToMany( mappedBy = "studentEntity" ) // 하나가 다수에게 , 1 : M
-    @ToString.Exclude // 순환참조 방지
-    @Builder.Default // new 생성자 대신에 빌더로 객체 생성시 초기값 사용
+    // 과정(1) : 수강기록(N) - 양방향
+    @OneToMany(mappedBy = "studentEntity")
+    @ToString.Exclude @Builder.Default
     private List<EnrollEntity> enrollEntityList = new ArrayList<>();
 }
