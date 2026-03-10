@@ -1,6 +1,6 @@
 package example.day06.practice6;
 
-import jakarta.persistence.Id;
+import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -42,7 +42,7 @@ public class MovieService {
     }
 
     // 영화 개별 조회
-    public List<MovieDto> 영화개별조회(Integer movieid){
+    public MovieDto 영화개별조회(Integer movieid){
         Optional<MovieEntity> result = movieRepository.findById(movieid);
 
         if(result.isPresent()){
@@ -62,8 +62,24 @@ public class MovieService {
     }
 
     // 특정 영화 수정
-    public
+    @Transactional
+    public boolean 수정(MovieDto movieDto){
+        int updatePk = movieDto.getMovieid();
+        Optional<MovieEntity> optional = movieRepository.findById(updatePk);
+        if(optional.isPresent()){
+            MovieEntity updateEntity = optional.get();
+            updateEntity.setTitle(movieDto.getTitle());
+            updateEntity.setDirector(movieDto.getDirector());
+            updateEntity.setReleasedate(movieDto.getReleasedate());
+            updateEntity.setRating(movieDto.getRating());
+            return true;
+        }else{return false;}
+    }
 
-    // 영화 정보 수정
+    // 특정 영화 삭제
+    public boolean 삭제(int movieid){
+        movieRepository.deleteById(movieid);
+        return true;
 
+    }
 }

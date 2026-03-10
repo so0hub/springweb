@@ -1,14 +1,15 @@
 package example.day06.practice6;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
+import java.util.List;
+
+@Getter @Setter
+@ToString
 @AllArgsConstructor @NoArgsConstructor @Builder @Data // 롬복
-public class MovieDto {
-    private Integer movieid; // 영화번호
-    private String title; // 영화제목
+public class MovieDto{
+    private Integer movieid;
+    private String title;
     private String director; // 감독
     private String releasedate; // 개봉일
     private Integer rating; // 평점
