@@ -49,6 +49,7 @@ function App() {
       <h2>React-기본</h2>
     <ol>
       <FrontComp></FrontComp>   
+    // props가 머냐면  <FrontComp propData1={frontData} frTitle="프론트엔드"></FrontComp>
       <BackComp/>  
     </ol>
     <FormComp></FormComp>
