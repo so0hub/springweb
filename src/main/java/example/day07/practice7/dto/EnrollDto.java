@@ -7,23 +7,30 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.time.LocalDateTime;
+
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
 @Builder
 public class EnrollDto {
-    private Integer enrollId; // 학생 번호
-    private String enrollName; // 학생명
+    private Integer enrollId; // 수강 번호;
+    private String status; //  수강 상태
     // + baseTime
-    private String createDate;
-    private String updateDate;
+    private LocalDateTime createDate;
+    private LocalDateTime updateDate;
+    // + 학생
+    private String studentName;
+    private Integer studentId;
+    // + 과정
+    private String courseName;
+    private Integer courseId;
 
     // ** DTO --> ENTITY 변환함수 **
-    public EnrollEntity enrollEntity (){
+    public EnrollEntity etoEntity (){
         return EnrollEntity.builder()
                 .enrollId(this.enrollId)
-                .enrollName(this.enrollName)
-
+                .status(this.status)
                 .build();
     }
 }
