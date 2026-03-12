@@ -1,12 +1,23 @@
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
-import Exam2 from './chapter7/Exam2.jsx';
-const root = document.querySelector('#root'); // index html 에서 root 가져오기
+
+
+
+// ** index.html 에서 root 가져오기 **
+const root = document.querySelector('#root');
+
+// Chapter9 예제
+import Exam2 from './chapter9/Exam2.jsx';
+createRoot(root).render(<Exam2/>)
+
+// Chapter8 예제
+// import Exam1 from './chapter8/Exam1.jsx';
+// createRoot(root).render(<Exam1/>)
 
 // Chapter7 예제 코드
-import Exam2 from './chapter7/Exam2.jsx';
-createRoot(root).render(<Exam2/>)
+// import Exam2 from './chapter7/Exam2.jsx';
+// createRoot(root).render(<Exam2/>)
 
 
 // Chapter6 예제 코드
