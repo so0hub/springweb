@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6a0b09a5-26f7-40d9-a3fa-f2747f05f375" name="변경" comment="2026-03-11">
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/day09/springbootdeveloper/AppStart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/day09/springbootdeveloper/controller/BlogApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/day09/springbootdeveloper/controller/BlogViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/day09/springbootdeveloper/controller/ExampleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/day09/springbootdeveloper/controller/SpringBootTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/day09/springbootdeveloper/domain/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/day09/springbootdeveloper/dto/AddArticleRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/day09/springbootdeveloper/dto/ArticleListViewResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/day09/springbootdeveloper/dto/ArticleResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/day09/springbootdeveloper/dto/ArticleViewResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/day09/springbootdeveloper/dto/UpdateArticleRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/day09/springbootdeveloper/repository/BlogRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/day09/springbootdeveloper/sample.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/day09/springbootdeveloper/service/BlogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/article.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/article.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/articleList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sql/data.sql" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="test" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="test" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="test" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="test" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build setup" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="test" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="AnnotationType" />
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;so0hub&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:/so0hub/springweb.git&quot;,
+    &quot;accountId&quot;: &quot;7b9df017-a91e-46e5-919d-6aba1ff1595d&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="3A8hQVo2rvv14ezw6jiIY6mIMT8" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Gradle.springweb [:example.day02.controller.AppStart.main()].executor": "Run",
+    "Gradle.springweb [:example.day02.practice2.AppStart.main()].executor": "Run",
+    "Gradle.springweb [:example.day03.axios.AppStart.main()].executor": "Run",
+    "Gradle.springweb [:example.day03.롬복.Exam3.main()].executor": "Run",
+    "Gradle.springweb [:example.day05.mvc.AppStart.main()].executor": "Run",
+    "Gradle.springweb [:example.day05.practice5.AppStart.main()].executor": "Run",
+    "Gradle.springweb [:example.day06.AppStart.main()].executor": "Run",
+    "Gradle.springweb [:example.day06.entity.AppStart.main()].executor": "Run",
+    "Gradle.springweb [:example.day07.practice7.AppStart.main()].executor": "Run",
+    "Gradle.springweb [:example.day07.연관관계.AppStart.main()].executor": "Run",
+    "Gradle.springweb [:example.day07.자바참조.Exam1.main()].executor": "Run",
+    "Gradle.springweb [:example.day08.AppStart.main()].executor": "Run",
+    "Gradle.springweb [:example.day09.springbootdeveloper.AppStart.main()].executor": "Run",
+    "Gradle.springweb [:example.day1.AppStart.main()].executor": "Run",
+    "Gradle.springweb [:example.day2.controller.AppStart.main()].executor": "Run",
+    "Gradle.springweb [:example.day2.servlet.AppStart.main()].executor": "Run",
+    "Gradle.springweb [:example.종합.예제10.AppStart.main()].executor": "Run",
+    "Gradle.springweb [:example.종합.예제9.AppStart.main()].executor": "Run",
+    "Gradle.springweb [clean].executor": "Run",
+    "Gradle.springweb 빌드.executor": "Run",
+    "Gradle.소스 다운로드.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.AppStart (1).executor": "Run",
+    "Spring Boot.AppStart (2).executor": "Run",
+    "Spring Boot.AppStart (3).executor": "Run",
+    "Spring Boot.AppStart (4).executor": "Run",
+    "Spring Boot.AppStart.executor": "Run",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/sku-102-09/IdeaProjects/springweb/src/main/java/example/day09",
+    "project.structure.last.edited": "문제",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.build.tools.auto.reload": "ALL",
+    "settings.editor.selected.configurable": "configurable.group.build"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="example.day09.springbootdeveloper.controller" />
+      <recent name="example.day04.ch3" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sku-102-09\IdeaProjects\springweb\src\main\java\example\day09" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sku-102-09\IdeaProjects\springweb\src\main\java\example\day09\springbootdeveloper" />
+      <recent name="C:\Users\sku-102-09\IdeaProjects\springweb\src\main\resources\static\종합예제9" />
+      <recent name="C:\Users\sku-102-09\IdeaProjects\springweb\src\main\resources\static" />
+      <recent name="C:\Users\sku-102-09\IdeaProjects\springweb\src\main\resources\static1\종합예제9" />
+      <recent name="C:\Users\sku-102-09\IdeaProjects\springweb\src\main\resources\static\example\example2" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="example.day09.springbootdeveloper.controller" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="example.day08" />
+    </key>
+  </component>
+  <component name="RunManager" selected="애플리케이션.AppStart">
+    <configuration name="AppStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.day09.springbootdeveloper.AppStart" />
+      <module name="test.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="example.day09.springbootdeveloper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="example.day07.practice7.AppStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.day07.practice7.AppStart" />
+      <module name="test.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="example.day07.practice7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="example.day08.AppStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.day08.AppStart" />
+      <module name="test.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="example.day08.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppStart (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
+      <module name="test.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="example.day07.practice7.AppStart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="example.day07.practice7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppStart (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
+      <module name="test.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="example.day09.springbootdeveloper.AppStart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="example.day09.springbootdeveloper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppStart" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
+      <module name="test.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="example.day06.entity.AppStart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="example.day06.entity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.AppStart (2)" />
+        <item itemvalue="애플리케이션.AppStart" />
+        <item itemvalue="애플리케이션.example.day08.AppStart" />
+        <item itemvalue="Spring Boot.AppStart (1)" />
+        <item itemvalue="애플리케이션.example.day07.practice7.AppStart" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.30387.90" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="6a0b09a5-26f7-40d9-a3fa-f2747f05f375" name="변경" comment="" />
+      <created>1771980088711</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1771980088711</updated>
+    </task>
+    <task id="LOCAL-00001" summary="260225">
+      <option name="closed" value="true" />
+      <created>1771993241936</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1771993241936</updated>
+    </task>
+    <task id="LOCAL-00002" summary="260225 오전">
+      <option name="closed" value="true" />
+      <created>1771999018169</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1771999018169</updated>
+    </task>
+    <task id="LOCAL-00003" summary="260225 오후">
+      <option name="closed" value="true" />
+      <created>1772010064972</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1772010064972</updated>
+    </task>
+    <task id="LOCAL-00004" summary="260226 practice2">
+      <option name="closed" value="true" />
+      <created>1772068562374</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1772068562375</updated>
+    </task>
+    <task id="LOCAL-00005" summary="260226 practice2">
+      <option name="closed" value="true" />
+      <created>1772069597201</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1772069597201</updated>
+    </task>
+    <task id="LOCAL-00006" summary="260226 practice2">
+      <option name="closed" value="true" />
+      <created>1772071789109</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1772071789109</updated>
+    </task>
+    <task id="LOCAL-00007" summary="260226">
+      <option name="closed" value="true" />
+      <created>1772091303769</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1772091303769</updated>
+    </task>
+    <task id="LOCAL-00008" summary="260226 오후">
+      <option name="closed" value="true" />
+      <created>1772095020853</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1772095020853</updated>
+    </task>
+    <task id="LOCAL-00009" summary="260226 오후">
+      <option name="closed" value="true" />
+      <created>1772097371342</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1772097371342</updated>
+    </task>
+    <task id="LOCAL-00010" summary="260227 11:19">
+      <option name="closed" value="true" />
+      <created>1772158792916</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1772158792916</updated>
+    </task>
+    <task id="LOCAL-00011" summary="260227 11:19">
+      <option name="closed" value="true" />
+      <created>1772161091796</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1772161091796</updated>
+    </task>
+    <task id="LOCAL-00012" summary="2026-02-27">
+      <option name="closed" value="true" />
+      <created>1772170400289</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1772170400289</updated>
+    </task>
+    <task id="LOCAL-00013" summary="2026-03-03">
+      <option name="closed" value="true" />
+      <created>1772520037434</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1772520037434</updated>
+    </task>
+    <task id="LOCAL-00014" summary="2026-03-04">
+      <option name="closed" value="true" />
+      <created>1772612327949</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1772612327949</updated>
+    </task>
+    <task id="LOCAL-00015" summary="2026-03-05 11:57">
+      <option name="closed" value="true" />
+      <created>1772679474443</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1772679474443</updated>
+    </task>
+    <task id="LOCAL-00016" summary="2026-03-05 12:16">
+      <option name="closed" value="true" />
+      <created>1772680569304</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1772680569304</updated>
+    </task>
+    <task id="LOCAL-00017" summary="2026-03-05 12:40">
+      <option name="closed" value="true" />
+      <created>1772682054550</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1772682054550</updated>
+    </task>
+    <task id="LOCAL-00018" summary="2026-03-05 오전">
+      <option name="closed" value="true" />
+      <created>1772688877824</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1772688877824</updated>
+    </task>
+    <task id="LOCAL-00019" summary="2026-03-05 오후">
+      <option name="closed" value="true" />
+      <created>1772702214778</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1772702214778</updated>
+    </task>
+    <task id="LOCAL-00020" summary="2026-03-06">
+      <option name="closed" value="true" />
+      <created>1772788894651</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1772788894651</updated>
+    </task>
+    <task id="LOCAL-00021" summary="2026-03-09">
+      <option name="closed" value="true" />
+      <created>1773034561565</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1773034561565</updated>
+    </task>
+    <task id="LOCAL-00022" summary="2026-03-09">
+      <option name="closed" value="true" />
+      <created>1773037061282</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1773037061282</updated>
+    </task>
+    <task id="LOCAL-00023" summary="2026-03-09">
+      <option name="closed" value="true" />
+      <created>1773047711254</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1773047711254</updated>
+    </task>
+    <task id="LOCAL-00024" summary="2026-03-10 practice7">
+      <option name="closed" value="true" />
+      <created>1773111573831</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1773111573831</updated>
+    </task>
+    <task id="LOCAL-00025" summary="2026-03-10 practice7">
+      <option name="closed" value="true" />
+      <created>1773112976279</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1773112976279</updated>
+    </task>
+    <task id="LOCAL-00026" summary="2026-03-10 practice6">
+      <option name="closed" value="true" />
+      <created>1773134406562</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1773134406562</updated>
+    </task>
+    <task id="LOCAL-00027" summary="2026-03-11">
+      <option name="closed" value="true" />
+      <created>1773193983746</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1773193983746</updated>
+    </task>
+    <task id="LOCAL-00028" summary="2026-03-11">
+      <option name="closed" value="true" />
+      <created>1773213826047</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1773213826047</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-core" />
+    <option featureType="dependencySupport" implementationName="java:jakarta.persistence:jakarta.persistence-api" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.data:spring-data-commons" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-webmvc" />
+    <option featureType="dependencySupport" implementationName="java:org.projectlombok:lombok" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="260225" />
+    <MESSAGE value="260225 오전" />
+    <MESSAGE value="260225 오후" />
+    <MESSAGE value="260226 practice2" />
+    <MESSAGE value="260226" />
+    <MESSAGE value="260226 오후" />
+    <MESSAGE value="260227 11:19" />
+    <MESSAGE value="260227" />
+    <MESSAGE value="2026-02-27" />
+    <MESSAGE value="2026-03-03" />
+    <MESSAGE value="2026-03-04" />
+    <MESSAGE value="2026-03-05 11:57" />
+    <MESSAGE value="2026-03-05 12:16" />
+    <MESSAGE value="2026-03-05 12:40" />
+    <MESSAGE value="2026-03-05 오전" />
+    <MESSAGE value="2026-03-05 오후" />
+    <MESSAGE value="2026-03-06" />
+    <MESSAGE value="2026-03-09" />
+    <MESSAGE value="2026-03-10 practice7" />
+    <MESSAGE value="2026-03-10 practice6" />
+    <MESSAGE value="2026-03-11" />
+    <option name="LAST_COMMIT_MESSAGE" value="2026-03-11" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
