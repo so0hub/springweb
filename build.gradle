@@ -20,10 +20,11 @@ repositories {
 
 dependencies { // 외부 라이브러리들을 추가하는 곳 , 추가된 라이브러리는 자동으로 설치된다.
     implementation 'org.springframework.boot:spring-boot-starter-webmvc'
-    runtimeOnly 'com.mysql:mysql-connector-j'       // 2] mySQL VS H2(인메모리)
-    compileOnly 'org.projectlombok:lombok'          // 3] Lombok
-    annotationProcessor 'org.projectlombok:lombok'  // 3] Lombok
+    runtimeOnly 'com.mysql:mysql-connector-j' // 2] mySQL VS H2(인메모리)
+    compileOnly 'org.projectlombok:lombok' // 3] Lombok
+    annotationProcessor 'org.projectlombok:lombok' // 3] Lombok
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa' // 4] JPA
+    implementation 'org.springframework.boot:spring-boot-starter-thymeleaf' // 타임리프 사용을 위한 의존성 추가
 }
 
 tasks.named('test') {}
