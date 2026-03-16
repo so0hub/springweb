@@ -5,29 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a0b09a5-26f7-40d9-a3fa-f2747f05f375" name="변경" comment="2026-03-11">
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/day09/springbootdeveloper/AppStart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/day09/springbootdeveloper/controller/BlogApiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/day09/springbootdeveloper/controller/BlogViewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/day09/springbootdeveloper/controller/ExampleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/day09/springbootdeveloper/controller/SpringBootTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/day09/springbootdeveloper/domain/Article.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/day09/springbootdeveloper/dto/AddArticleRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/day09/springbootdeveloper/dto/ArticleListViewResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/day09/springbootdeveloper/dto/ArticleResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/day09/springbootdeveloper/dto/ArticleViewResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/day09/springbootdeveloper/dto/UpdateArticleRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/day09/springbootdeveloper/repository/BlogRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/day09/springbootdeveloper/sample.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/day09/springbootdeveloper/service/BlogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/article.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/article.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/articleList.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/sql/data.sql" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/day10/Exam1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/day10/Exam2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/day10/Exam3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/day10/Exam4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,8 +70,8 @@
         <option value="Interface" />
         <option value="JUnit5 Test Class" />
         <option value="AnnotationType" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -138,6 +120,9 @@
     "Gradle.springweb [:example.day08.AppStart.main()].executor": "Run",
     "Gradle.springweb [:example.day09.springbootdeveloper.AppStart.main()].executor": "Run",
     "Gradle.springweb [:example.day1.AppStart.main()].executor": "Run",
+    "Gradle.springweb [:example.day10.Exam2.main()].executor": "Run",
+    "Gradle.springweb [:example.day10.Exam3.main()].executor": "Run",
+    "Gradle.springweb [:example.day10.Exam4.main()].executor": "Run",
     "Gradle.springweb [:example.day2.controller.AppStart.main()].executor": "Run",
     "Gradle.springweb [:example.day2.servlet.AppStart.main()].executor": "Run",
     "Gradle.springweb [:example.종합.예제10.AppStart.main()].executor": "Run",
@@ -191,7 +176,7 @@
       <recent name="example.day08" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.AppStart">
+  <component name="RunManager" selected="애플리케이션.Exam4">
     <configuration name="AppStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="example.day09.springbootdeveloper.AppStart" />
       <module name="test.main" />
@@ -205,12 +190,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="example.day07.practice7.AppStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="example.day07.practice7.AppStart" />
+    <configuration name="Exam2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.day10.Exam2" />
       <module name="test.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="example.day07.practice7.*" />
+          <option name="PATTERN" value="example.day10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -218,12 +203,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="example.day08.AppStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="example.day08.AppStart" />
+    <configuration name="Exam3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.day10.Exam3" />
       <module name="test.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="example.day08.*" />
+          <option name="PATTERN" value="example.day10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -231,13 +216,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppStart (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
+    <configuration name="Exam4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.day10.Exam4" />
       <module name="test.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="example.day07.practice7.AppStart" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="example.day07.practice7.*" />
+          <option name="PATTERN" value="example.day10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -259,27 +243,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppStart" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
-      <module name="test.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="example.day06.entity.AppStart" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="example.day06.entity.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.Exam4" />
+        <item itemvalue="애플리케이션.Exam3" />
+        <item itemvalue="애플리케이션.Exam2" />
         <item itemvalue="Spring Boot.AppStart (2)" />
         <item itemvalue="애플리케이션.AppStart" />
-        <item itemvalue="애플리케이션.example.day08.AppStart" />
-        <item itemvalue="Spring Boot.AppStart (1)" />
-        <item itemvalue="애플리케이션.example.day07.practice7.AppStart" />
       </list>
     </recent_temporary>
   </component>
@@ -522,7 +492,23 @@
       <option name="project" value="LOCAL" />
       <updated>1773213826047</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="2026-03-11">
+      <option name="closed" value="true" />
+      <created>1773393882126</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1773393882126</updated>
+    </task>
+    <task id="LOCAL-00030" summary="2026-03-11">
+      <option name="closed" value="true" />
+      <created>1773393892638</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1773393892638</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="UnknownFeatures">
