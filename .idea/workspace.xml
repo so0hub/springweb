@@ -5,11 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a0b09a5-26f7-40d9-a3fa-f2747f05f375" name="변경" comment="2026-03-11">
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/day10/Exam1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/day10/Exam2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/day10/Exam3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/day10/Exam4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/day11/AppStart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/day11/sample.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/day11/todo/controller/TodoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/day11/todo/dto/TodoDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/day11/todo/entity/BaseTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/day11/todo/entity/CategoryEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/day11/todo/entity/TodoEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/day11/todo/repository/TodoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/day11/todo/service/TodoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,12 +92,12 @@
     &quot;assignee&quot;: &quot;so0hub&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;git@github.com:/so0hub/springweb.git&quot;,
-    &quot;accountId&quot;: &quot;7b9df017-a91e-46e5-919d-6aba1ff1595d&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/so0hub/springweb.git",
+    "accountId": "e909df8b-7b12-4d7e-8442-f97db09bdae0"
   }
-}</component>
+}]]></component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -123,6 +131,7 @@
     "Gradle.springweb [:example.day10.Exam2.main()].executor": "Run",
     "Gradle.springweb [:example.day10.Exam3.main()].executor": "Run",
     "Gradle.springweb [:example.day10.Exam4.main()].executor": "Run",
+    "Gradle.springweb [:example.day11.AppStart.main()].executor": "Run",
     "Gradle.springweb [:example.day2.controller.AppStart.main()].executor": "Run",
     "Gradle.springweb [:example.day2.servlet.AppStart.main()].executor": "Run",
     "Gradle.springweb [:example.종합.예제10.AppStart.main()].executor": "Run",
@@ -143,7 +152,7 @@
     "create.test.in.the.same.root": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/sku-102-09/IdeaProjects/springweb/src/main/java/example/day09",
+    "last_opened_file_path": "C:/Users/SKU-102-19/Desktop/springweb/src/main/java/example/day11",
     "project.structure.last.edited": "문제",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
@@ -157,6 +166,7 @@
       <recent name="example.day04.ch3" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\SKU-102-19\Desktop\springweb\src\main\java\example\day11" />
       <recent name="C:\Users\sku-102-09\IdeaProjects\springweb\src\main\java\example\day09" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -176,20 +186,7 @@
       <recent name="example.day08" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Exam4">
-    <configuration name="AppStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="example.day09.springbootdeveloper.AppStart" />
-      <module name="test.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="example.day09.springbootdeveloper.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="애플리케이션.example.day11.AppStart">
     <configuration name="Exam2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="example.day10.Exam2" />
       <module name="test.main" />
@@ -229,6 +226,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="example.day11.AppStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.day11.AppStart" />
+      <module name="test.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="example.day11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AppStart (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
       <module name="test.main" />
@@ -245,18 +255,18 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.example.day11.AppStart" />
         <item itemvalue="애플리케이션.Exam4" />
         <item itemvalue="애플리케이션.Exam3" />
         <item itemvalue="애플리케이션.Exam2" />
         <item itemvalue="Spring Boot.AppStart (2)" />
-        <item itemvalue="애플리케이션.AppStart" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.30387.90" />
+        <option value="bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.240" />
       </set>
     </attachedChunks>
   </component>
