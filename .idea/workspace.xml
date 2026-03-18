@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a0b09a5-26f7-40d9-a3fa-f2747f05f375" name="변경" comment="2026-03-17">
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/day12/스프링스레드/AppStart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/day12/스프링스레드/ThreadController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/day12/스프링스레드/ThreadPoolConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/day12/스프링스레드/ThreadService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/day12/스프링스케줄링/AppStart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/day12/스프링스케줄링/ScheduleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/day12/웹크롤링/AppStart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/day12/웹크롤링/CrawlingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/day12/웹크롤링/CrawlingService.java" afterDir="false" />
+    <list default="true" id="6a0b09a5-26f7-40d9-a3fa-f2747f05f375" name="변경" comment="2026-03-18">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/day12/웹크롤링/CrawlingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/day12/웹크롤링/CrawlingController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,57 +100,57 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Gradle.springweb [:example.day02.controller.AppStart.main()].executor": "Run",
-    "Gradle.springweb [:example.day02.practice2.AppStart.main()].executor": "Run",
-    "Gradle.springweb [:example.day03.axios.AppStart.main()].executor": "Run",
-    "Gradle.springweb [:example.day03.롬복.Exam3.main()].executor": "Run",
-    "Gradle.springweb [:example.day05.mvc.AppStart.main()].executor": "Run",
-    "Gradle.springweb [:example.day05.practice5.AppStart.main()].executor": "Run",
-    "Gradle.springweb [:example.day06.AppStart.main()].executor": "Run",
-    "Gradle.springweb [:example.day06.entity.AppStart.main()].executor": "Run",
-    "Gradle.springweb [:example.day07.practice7.AppStart.main()].executor": "Run",
-    "Gradle.springweb [:example.day07.연관관계.AppStart.main()].executor": "Run",
-    "Gradle.springweb [:example.day07.자바참조.Exam1.main()].executor": "Run",
-    "Gradle.springweb [:example.day08.AppStart.main()].executor": "Run",
-    "Gradle.springweb [:example.day09.springbootdeveloper.AppStart.main()].executor": "Run",
-    "Gradle.springweb [:example.day1.AppStart.main()].executor": "Run",
-    "Gradle.springweb [:example.day10.Exam2.main()].executor": "Run",
-    "Gradle.springweb [:example.day10.Exam3.main()].executor": "Run",
-    "Gradle.springweb [:example.day10.Exam4.main()].executor": "Run",
-    "Gradle.springweb [:example.day11.AppStart.main()].executor": "Run",
-    "Gradle.springweb [:example.day12.스프링스레드.AppStart.main()].executor": "Run",
-    "Gradle.springweb [:example.day12.웹크롤링.AppStart.main()].executor": "Run",
-    "Gradle.springweb [:example.day2.controller.AppStart.main()].executor": "Run",
-    "Gradle.springweb [:example.day2.servlet.AppStart.main()].executor": "Run",
-    "Gradle.springweb [:example.종합.예제10.AppStart.main()].executor": "Run",
-    "Gradle.springweb [:example.종합.예제9.AppStart.main()].executor": "Run",
-    "Gradle.springweb [clean].executor": "Run",
-    "Gradle.springweb 빌드.executor": "Run",
-    "Gradle.소스 다운로드.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.AppStart (1).executor": "Run",
-    "Spring Boot.AppStart (2).executor": "Run",
-    "Spring Boot.AppStart (3).executor": "Run",
-    "Spring Boot.AppStart (4).executor": "Run",
-    "Spring Boot.AppStart.executor": "Run",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "create.test.in.the.same.root": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/SKU-102-19/Desktop/springweb/src/main/java/example/day11",
-    "project.structure.last.edited": "문제",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.build.tools.auto.reload": "ALL",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Gradle.springweb [:example.day02.controller.AppStart.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.springweb [:example.day02.practice2.AppStart.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.springweb [:example.day03.axios.AppStart.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.springweb [:example.day03.롬복.Exam3.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.springweb [:example.day05.mvc.AppStart.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.springweb [:example.day05.practice5.AppStart.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.springweb [:example.day06.AppStart.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.springweb [:example.day06.entity.AppStart.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.springweb [:example.day07.practice7.AppStart.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.springweb [:example.day07.연관관계.AppStart.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.springweb [:example.day07.자바참조.Exam1.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.springweb [:example.day08.AppStart.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.springweb [:example.day09.springbootdeveloper.AppStart.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.springweb [:example.day1.AppStart.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.springweb [:example.day10.Exam2.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.springweb [:example.day10.Exam3.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.springweb [:example.day10.Exam4.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.springweb [:example.day11.AppStart.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.springweb [:example.day12.스프링스레드.AppStart.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.springweb [:example.day12.웹크롤링.AppStart.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.springweb [:example.day2.controller.AppStart.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.springweb [:example.day2.servlet.AppStart.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.springweb [:example.종합.예제10.AppStart.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.springweb [:example.종합.예제9.AppStart.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.springweb [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.springweb 빌드.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.소스 다운로드.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.AppStart (1).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.AppStart (2).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.AppStart (3).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.AppStart (4).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.AppStart.executor&quot;: &quot;Run&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/SKU-102-19/Desktop/springweb/src/main/java/example/day11&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;문제&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.build.tools.auto.reload&quot;: &quot;ALL&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="example.day09.springbootdeveloper.controller" />
@@ -535,7 +525,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773725996581</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="2026-03-18">
+      <option name="closed" value="true" />
+      <created>1773807413060</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1773807413060</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -569,7 +567,8 @@
     <MESSAGE value="2026-03-10 practice6" />
     <MESSAGE value="2026-03-11" />
     <MESSAGE value="2026-03-17" />
-    <option name="LAST_COMMIT_MESSAGE" value="2026-03-17" />
+    <MESSAGE value="2026-03-18" />
+    <option name="LAST_COMMIT_MESSAGE" value="2026-03-18" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

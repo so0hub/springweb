@@ -25,4 +25,6 @@ public class CrawlingController {
     public ResponseEntity<?> test2(){
         return ResponseEntity.ok( crawlingService.test2() );
     }
+
 }
+
