@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a0b09a5-26f7-40d9-a3fa-f2747f05f375" name="변경" comment="2026-03-18">
+    <list default="true" id="6a0b09a5-26f7-40d9-a3fa-f2747f05f375" name="변경" comment="2026-03-19">
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/day13/공공데이터/ApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/day13/공공데이터/ApiService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/day13/공공데이터/AppStart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/26__3__13___10_29__________.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/26__3__13__오전_10_29,_업데이트_전에_커밋되지_않은_변경_내용_[변경]/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/example/day12/웹크롤링/CrawlingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/day12/웹크롤링/CrawlingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/example/day12/웹크롤링/CrawlingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/day12/웹크롤링/CrawlingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,6 +129,7 @@
     &quot;Gradle.springweb [:example.day11.AppStart.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.springweb [:example.day12.스프링스레드.AppStart.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.springweb [:example.day12.웹크롤링.AppStart.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.springweb [:example.day13.공공데이터.AppStart.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.springweb [:example.day2.controller.AppStart.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.springweb [:example.day2.servlet.AppStart.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.springweb [:example.종합.예제10.AppStart.main()].executor&quot;: &quot;Run&quot;,
@@ -179,7 +184,7 @@
       <recent name="example.day08" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.example.day12.웹크롤링.AppStart">
+  <component name="RunManager" selected="애플리케이션.example.day13.공공데이터.AppStart">
     <configuration name="AppStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="example.day12.스프링스레드.AppStart" />
       <module name="test.main" />
@@ -193,38 +198,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exam4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="example.day10.Exam4" />
-      <module name="test.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="example.day10.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="example.day11.AppStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="example.day11.AppStart" />
-      <module name="test.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="example.day11.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="example.day12.웹크롤링.AppStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="example.day12.웹크롤링.AppStart" />
       <module name="test.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="example.day12.웹크롤링.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="example.day13.공공데이터.AppStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.day13.공공데이터.AppStart" />
+      <module name="test.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="example.day13.공공데이터.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppStart (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
+      <module name="test.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="example.day13.공공데이터.AppStart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="example.day13.공공데이터.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -248,11 +254,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.AppStart (1)" />
+        <item itemvalue="애플리케이션.example.day13.공공데이터.AppStart" />
         <item itemvalue="애플리케이션.example.day12.웹크롤링.AppStart" />
         <item itemvalue="Spring Boot.AppStart" />
         <item itemvalue="애플리케이션.AppStart" />
-        <item itemvalue="애플리케이션.example.day11.AppStart" />
-        <item itemvalue="애플리케이션.Exam4" />
       </list>
     </recent_temporary>
   </component>
@@ -543,13 +549,22 @@
       <option name="project" value="LOCAL" />
       <updated>1773826030548</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="2026-03-19">
+      <option name="closed" value="true" />
+      <created>1773892053861</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1773892053861</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="UnknownFeatures">
     <option featureType="dependencySupport" implementationName="java:org.springframework:spring-core" />
     <option featureType="dependencySupport" implementationName="java:jakarta.persistence:jakarta.persistence-api" />
     <option featureType="dependencySupport" implementationName="java:org.seleniumhq.selenium:selenium-java" />
+    <option featureType="dependencySupport" implementationName="java:io.projectreactor:reactor-core" />
     <option featureType="dependencySupport" implementationName="java:org.springframework.data:spring-data-commons" />
     <option featureType="dependencySupport" implementationName="java:org.thymeleaf:thymeleaf" />
     <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot" />
@@ -580,7 +595,8 @@
     <MESSAGE value="2026-03-11" />
     <MESSAGE value="2026-03-17" />
     <MESSAGE value="2026-03-18" />
-    <option name="LAST_COMMIT_MESSAGE" value="2026-03-18" />
+    <MESSAGE value="2026-03-19" />
+    <option name="LAST_COMMIT_MESSAGE" value="2026-03-19" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
