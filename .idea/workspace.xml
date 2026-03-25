@@ -4,32 +4,12 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a0b09a5-26f7-40d9-a3fa-f2747f05f375" name="변경" comment="2026-03-20">
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/day14/AppStart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/day14/SessionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/day15/AppStart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/day15/JWTController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/day15/JWTService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springweb/AppStart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springweb/board/controller/BoardController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springweb/board/dto/BoardDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springweb/board/entity/BoardEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springweb/board/repository/BoardRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springweb/board/service/BoardService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springweb/member/controller/MemberController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springweb/member/dto/MemberDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springweb/member/entity/BaseTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springweb/member/entity/MemberEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springweb/member/repository/MemberRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springweb/member/service/MemberService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sql/DDL.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sql/data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+    <list default="true" id="6a0b09a5-26f7-40d9-a3fa-f2747f05f375" name="변경" comment="2026-03-24">
+      <change afterPath="$PROJECT_DIR$/src/main/java/springweb/member/controller/MemberController2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springweb/member/service/JWTService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/day15/JWTController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/day15/JWTController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +29,12 @@
         </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="test" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -179,26 +164,13 @@
       <recent name="example.day08" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.AppStart">
+  <component name="RunManager">
     <configuration name="AppStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="springweb.AppStart" />
       <module name="test.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="springweb.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="example.day13.공공데이터.AppStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="example.day13.공공데이터.AppStart" />
-      <module name="test.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="example.day13.공공데이터.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -234,6 +206,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AppStart (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
+      <module name="test.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="springweb.AppStart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="springweb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AppStart" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
       <module name="test.main" />
@@ -250,11 +236,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.AppStart (3)" />
         <item itemvalue="Spring Boot.AppStart" />
         <item itemvalue="Spring Boot.AppStart (2)" />
         <item itemvalue="애플리케이션.AppStart" />
         <item itemvalue="Spring Boot.AppStart (1)" />
-        <item itemvalue="애플리케이션.example.day13.공공데이터.AppStart" />
       </list>
     </recent_temporary>
   </component>
@@ -561,7 +547,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773975158337</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="2026-03-24">
+      <option name="closed" value="true" />
+      <created>1774330757719</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1774330757719</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -576,7 +570,6 @@
     <option featureType="dependencySupport" implementationName="java:org.projectlombok:lombok" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="260225" />
     <MESSAGE value="260225 오전" />
     <MESSAGE value="260225 오후" />
     <MESSAGE value="260226 practice2" />
@@ -601,7 +594,8 @@
     <MESSAGE value="2026-03-18" />
     <MESSAGE value="2026-03-19" />
     <MESSAGE value="2026-03-20" />
-    <option name="LAST_COMMIT_MESSAGE" value="2026-03-20" />
+    <MESSAGE value="2026-03-24" />
+    <option name="LAST_COMMIT_MESSAGE" value="2026-03-24" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

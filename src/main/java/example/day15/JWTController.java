@@ -24,7 +24,7 @@ public class JWTController {
 
     // [2] JWT 토큰 값 추출 == 암호화된 JWT 토큰을 다시 평문으로
     @GetMapping("/read")
-    // http://localhost:8080/api/jwt/read?토큰=
+    // http://localhost:8080/api/jwt/read?토큰=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjoi67CU64KY64KYIiwiaWF0IjoxNzc0Mzk5MzYyLCJleHAiOjE3NzQzOTkzODJ9.j9KNb5n2eV3yOIbaxLlkWXS2xaQJT8ljlRm30WZD-X8
     public ResponseEntity<?> 값추출(@RequestParam String 토큰){
         return ResponseEntity.ok(jwtService.값추출(토큰));
     }
