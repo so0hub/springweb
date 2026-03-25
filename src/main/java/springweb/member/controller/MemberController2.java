@@ -17,8 +17,8 @@ public class MemberController2 {
 
     // [2] 로그인 = 세션방식 ---> 토큰방식 변경
     @PostMapping("")
-    // http://localhost:8080/api/member2/login
-    //
+    // http://localhost:8080/api/member2
+    // { "mid" : "user01" , "mpwd" : "1234" }
     public ResponseEntity<?> login(@RequestBody MemberDto loginDto){
         boolean result = memberService.login(loginDto);
         // 1] 만약에 로그인 성공이면 토큰 부여
