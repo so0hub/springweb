@@ -54,4 +54,21 @@ public class BoardController {
         boolean result = boardService.write( boardDto , loginMid );
         return  ResponseEntity.ok( result );
     }
+
+    // [1-3] 회원제 글등록 + 토큰 정보 + 첨부파일( content-Type : multipart/form-data 변경 )
+    @PostMapping("/write3")
+    // http://localhost:8080/api/board/write3
+
+    public ResponseEntity<?> write3( BoardDto boardDto , @RequestHeader("Authorization") String token ){
+        // 달라진점1] @RequestBody 사용하지 않는다. 왜? 첨부파일 매핑하기 위해
+        // 달라진점2] dto에 MultipartFile 인터페이스 포함한다. private MultipartFile uploadFile; // 업로드용도
+        if( token == null || !token.startsWith("Bearer") ) {
+            return ResponseEntity.ok( false );
+        }
+        token = token.replace("Bearer " , "");
+        String loginMid = jwtService.getClaim( token );
+        if( loginMid == null ){ return ResponseEntity.ok(false); }
+        boolean result = boardService.write( boardDto , loginMid );
+        return  ResponseEntity.ok( result );
+    }
 }

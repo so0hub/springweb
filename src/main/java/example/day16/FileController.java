@@ -47,7 +47,7 @@ public class FileController {
 */
 
 /*
-    (1) 쿼리스트링 방식 ,  URL ? 변수명 = 값
-    (2) 본문 방식 , URL , { "변수명" : 값 } , content-type : application/json
+    (1) 쿼리스트링 방식 ,  URL ? 변수명 = 값 @RequestParam
+    (2) 본문 방식 , URL , { "변수명" : 값 } , content-type : application/json @RequestBody
     (3) 대용량(바이트) 방식 , URL , form , content-type : multipart/form-data
  */
