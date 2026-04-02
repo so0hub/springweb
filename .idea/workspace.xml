@@ -5,8 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a0b09a5-26f7-40d9-a3fa-f2747f05f375" name="변경" comment="2026-03-26 오전">
+      <change afterPath="$PROJECT_DIR$/src/main/hello-react-project/public/json/dto1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/hello-react-project/public/json/dto2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/hello-react-project/public/json/dto3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/hello-react-project/public/json/myData.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/hello-react-project/public/json/randomUser.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/hello-react-project/src/chapter12/App.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/hello-react-project/src/chapter12/components/ExternalApiFetcher.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/hello-react-project/src/chapter12/components/Lifecycle.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/hello-react-project/src/chapter12/components/LocalJsonFetcher.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/hello-react-project/src/chapter12/components/TopNavi.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/종합/practice1_0402/AppStart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/종합/practice1_0402/task/controller/TaskController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/종합/practice1_0402/task/dto/TaskDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/종합/practice1_0402/task/entity/BaseTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/종합/practice1_0402/task/entity/TaskEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/종합/practice1_0402/task/repository/TaskRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/종합/practice1_0402/task/service/TaskService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/hello-react-project/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/hello-react-project/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/hello-react-project/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/hello-react-project/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/hello-react-project/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/hello-react-project/src/main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,59 +99,60 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Gradle.springweb [:example.day02.controller.AppStart.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.springweb [:example.day02.practice2.AppStart.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.springweb [:example.day03.axios.AppStart.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.springweb [:example.day03.롬복.Exam3.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.springweb [:example.day05.mvc.AppStart.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.springweb [:example.day05.practice5.AppStart.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.springweb [:example.day06.AppStart.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.springweb [:example.day06.entity.AppStart.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.springweb [:example.day07.practice7.AppStart.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.springweb [:example.day07.연관관계.AppStart.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.springweb [:example.day07.자바참조.Exam1.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.springweb [:example.day08.AppStart.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.springweb [:example.day09.springbootdeveloper.AppStart.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.springweb [:example.day1.AppStart.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.springweb [:example.day10.Exam2.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.springweb [:example.day10.Exam3.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.springweb [:example.day10.Exam4.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.springweb [:example.day11.AppStart.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.springweb [:example.day12.스프링스레드.AppStart.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.springweb [:example.day12.웹크롤링.AppStart.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.springweb [:example.day13.공공데이터.AppStart.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.springweb [:example.day2.controller.AppStart.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.springweb [:example.day2.servlet.AppStart.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.springweb [:example.종합.예제10.AppStart.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.springweb [:example.종합.예제9.AppStart.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.springweb [:springweb.AppStart.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.springweb [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.springweb 빌드.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.소스 다운로드.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Spring Boot.AppStart (1).executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.AppStart (2).executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.AppStart (3).executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.AppStart (4).executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.AppStart.executor&quot;: &quot;Run&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/SKU-102-19/Desktop/springweb/src/main/resources/spl&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;문제&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.build.tools.auto.reload&quot;: &quot;ALL&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Gradle.springweb [:example.day02.controller.AppStart.main()].executor": "Run",
+    "Gradle.springweb [:example.day02.practice2.AppStart.main()].executor": "Run",
+    "Gradle.springweb [:example.day03.axios.AppStart.main()].executor": "Run",
+    "Gradle.springweb [:example.day03.롬복.Exam3.main()].executor": "Run",
+    "Gradle.springweb [:example.day05.mvc.AppStart.main()].executor": "Run",
+    "Gradle.springweb [:example.day05.practice5.AppStart.main()].executor": "Run",
+    "Gradle.springweb [:example.day06.AppStart.main()].executor": "Run",
+    "Gradle.springweb [:example.day06.entity.AppStart.main()].executor": "Run",
+    "Gradle.springweb [:example.day07.practice7.AppStart.main()].executor": "Run",
+    "Gradle.springweb [:example.day07.연관관계.AppStart.main()].executor": "Run",
+    "Gradle.springweb [:example.day07.자바참조.Exam1.main()].executor": "Run",
+    "Gradle.springweb [:example.day08.AppStart.main()].executor": "Run",
+    "Gradle.springweb [:example.day09.springbootdeveloper.AppStart.main()].executor": "Run",
+    "Gradle.springweb [:example.day1.AppStart.main()].executor": "Run",
+    "Gradle.springweb [:example.day10.Exam2.main()].executor": "Run",
+    "Gradle.springweb [:example.day10.Exam3.main()].executor": "Run",
+    "Gradle.springweb [:example.day10.Exam4.main()].executor": "Run",
+    "Gradle.springweb [:example.day11.AppStart.main()].executor": "Run",
+    "Gradle.springweb [:example.day12.스프링스레드.AppStart.main()].executor": "Run",
+    "Gradle.springweb [:example.day12.웹크롤링.AppStart.main()].executor": "Run",
+    "Gradle.springweb [:example.day13.공공데이터.AppStart.main()].executor": "Run",
+    "Gradle.springweb [:example.day2.controller.AppStart.main()].executor": "Run",
+    "Gradle.springweb [:example.day2.servlet.AppStart.main()].executor": "Run",
+    "Gradle.springweb [:example.종합.practice1_0402.AppStart.main()].executor": "Run",
+    "Gradle.springweb [:example.종합.예제10.AppStart.main()].executor": "Run",
+    "Gradle.springweb [:example.종합.예제9.AppStart.main()].executor": "Run",
+    "Gradle.springweb [:springweb.AppStart.main()].executor": "Run",
+    "Gradle.springweb [clean].executor": "Run",
+    "Gradle.springweb 빌드.executor": "Run",
+    "Gradle.소스 다운로드.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.AppStart (1).executor": "Run",
+    "Spring Boot.AppStart (2).executor": "Run",
+    "Spring Boot.AppStart (3).executor": "Run",
+    "Spring Boot.AppStart (4).executor": "Run",
+    "Spring Boot.AppStart.executor": "Run",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/SKU-102-19/Desktop/springweb/src/main/resources/spl",
+    "project.structure.last.edited": "문제",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.build.tools.auto.reload": "ALL",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="example.day09.springbootdeveloper.controller" />
@@ -156,20 +177,20 @@
       <recent name="example.day09.springbootdeveloper.controller" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="practice1_0402.task.entity" />
+      <recent name="springweb.board.entity" />
       <recent name="springweb.board.service" />
       <recent name="example.day16" />
       <recent name="example.day15" />
-      <recent name="springweb.member.entity" />
-      <recent name="example.day08" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.AppStart">
-    <configuration name="AppStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="springweb.AppStart" />
+  <component name="RunManager" selected="애플리케이션.example.종합.practice1_0402.AppStart">
+    <configuration name="example.종합.practice1_0402.AppStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.종합.practice1_0402.AppStart" />
       <module name="test.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="springweb.*" />
+          <option name="PATTERN" value="example.종합.practice1_0402.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,13 +198,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppStart (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="AppStart (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
       <module name="test.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="example.day14.AppStart" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="example.종합.practice1_0402.AppStart" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="example.day14.*" />
+          <option name="PATTERN" value="example.종합.practice1_0402.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -235,11 +256,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.AppStart (1)" />
+        <item itemvalue="애플리케이션.example.종합.practice1_0402.AppStart" />
         <item itemvalue="Spring Boot.AppStart (4)" />
         <item itemvalue="Spring Boot.AppStart (3)" />
         <item itemvalue="Spring Boot.AppStart" />
-        <item itemvalue="Spring Boot.AppStart (2)" />
-        <item itemvalue="애플리케이션.AppStart" />
       </list>
     </recent_temporary>
   </component>

@@ -1,21 +1,39 @@
 import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.jsx'
+// import './index.css'
+// import App from './App.jsx'
 
 
 
 // ** index.html 에서 root 가져오기 **
 const root = document.querySelector('#root');
 
-// Chapter11 예제
-import Exam2 from './chapter11/Exam2.jsx';
-import {BrowserRouter} from 'react-router-dom'; // [1] 라이브러리 import 하기
-createRoot(root).render(
-    // [2] 최초 렌더링되는 컴포넌트에 BrowserRouter 감싼다.
+// practice1 260402
+import App from './practice1/App';
+import {BrowserRouter} from 'react-router-dom'
+createRoot( root ).render(
     <BrowserRouter>
-        <Exam2/>
+        <App />
     </BrowserRouter>
-);
+)
+
+// Chapter12 예제
+// import App from './chapter12/App.jsx';
+// import { BrowserRouter } from 'react-router-dom';
+// createRoot(root).render(
+// <BrowserRouter>
+//     <App/>
+// </BrowserRouter>
+// );
+
+// Chapter11 예제
+// import Exam2 from './chapter11/Exam2.jsx';
+// import {BrowserRouter} from 'react-router-dom'; // [1] 라이브러리 import 하기
+// createRoot(root).render(
+//     // [2] 최초 렌더링되는 컴포넌트에 BrowserRouter 감싼다.
+//     <BrowserRouter>
+//         <Exam2/>
+//     </BrowserRouter>
+// );
 
 // Chapter10 예제
 // import Exam1 from './chapter10/Exam1.jsx';
