@@ -10,13 +10,18 @@ import springweb.member.service.MemberService;
 @RestController
 @RequiredArgsConstructor
 @RequestMapping("/api/member2")
+@CrossOrigin( value = "http://localhost:5173" , exposedHeaders = "Authorization")
 public class MemberController2 {
     private final MemberService memberService;
     private final JWTService jwtService;
     // [1] 회원가입 == 세션방식과 동일하므로 생략
+    @PostMapping("/signup")
+    public ResponseEntity<?> signup(@RequestBody MemberDto memberDto){
+        return ResponseEntity.ok(memberService.signup(memberDto));
+    }
 
     // [2] 로그인 = 세션방식 ---> 토큰방식 변경
-    @PostMapping("")
+    @PostMapping("/login")
     // http://localhost:8080/api/member2
     // { "mid" : "user01" , "mpwd" : "1234" }
     public ResponseEntity<?> login(@RequestBody MemberDto loginDto){
@@ -38,7 +43,7 @@ public class MemberController2 {
     // 즉] 클라이언트 측에서 token 제거하면 된다.
 
     // [4] 마이페이지 = 세션방식 ---> 토큰방식 변경
-    @GetMapping("/my/info")
+    @GetMapping("/myinfo")
     public ResponseEntity<?> myInfo(@RequestHeader("Authorization") String token ){
         // @RequestHeader : HTTP 요청의 header 정보 매핑
         // 1] @RequestHeader("Authorization") String token 매개변수로 받는다.

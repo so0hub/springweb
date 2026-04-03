@@ -12,6 +12,7 @@ import springweb.member.service.JWTService;
 @RestController
 @RequiredArgsConstructor
 @RequestMapping("/api/board")
+@CrossOrigin( value = "http://localhost:5173" , exposedHeaders = "Authorization")
 public class BoardController {
     private final BoardService boardService;
     private final JWTService jwtService;

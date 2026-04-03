@@ -7,14 +7,23 @@ import { createRoot } from 'react-dom/client'
 // ** index.html 에서 root 가져오기 **
 const root = document.querySelector('#root');
 
-// practice1 260402
-import App from './practice1/App';
+// reactweb 260403
+import App from './reactweb/App';
 import {BrowserRouter} from 'react-router-dom'
 createRoot( root ).render(
     <BrowserRouter>
         <App />
     </BrowserRouter>
 )
+
+// practice1 260402
+// import App from './practice1/App';
+// import {BrowserRouter} from 'react-router-dom'
+// createRoot( root ).render(
+//     <BrowserRouter>
+//         <App />
+//     </BrowserRouter>
+// )
 
 // Chapter12 예제
 // import App from './chapter12/App.jsx';
