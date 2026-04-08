@@ -38,6 +38,7 @@ public class BoardEntity extends BaseTime {
                 .bfile(bfile)
                 .mno(memberEntity.getMno()) // 작성자FK의 회원번호
                 .mname(memberEntity.getMname()) // 작성자FK의 닉네임
+                .createDate(getCreateDate().toString()) // 작성일
                 .build();
     }
 }

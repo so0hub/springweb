@@ -5,12 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a0b09a5-26f7-40d9-a3fa-f2747f05f375" name="변경" comment="2026-04-02">
+      <change afterPath="$PROJECT_DIR$/src/main/java/springweb/chat/ChatController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springweb/chat/WebSocketConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springweb/member/controller/MemberController3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/hello-react-project/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/hello-react-project/src/main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/hello-react-project/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/hello-react-project/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/hello-react-project/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/hello-react-project/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/hello-react-project/src/reactweb/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/hello-react-project/src/reactweb/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/hello-react-project/src/reactweb/components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/hello-react-project/src/reactweb/components/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/hello-react-project/src/reactweb/pages/member/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/hello-react-project/src/reactweb/pages/member/Login.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/hello-react-project/src/reactweb/pages/member/board/Write.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/hello-react-project/src/reactweb/pages/member/board/Write.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/springweb/board/controller/BoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springweb/board/controller/BoardController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/springweb/board/service/FileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springweb/board/service/FileService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/springweb/member/controller/MemberController2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springweb/member/controller/MemberController2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springweb/board/entity/BoardEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springweb/board/entity/BoardEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springweb/board/service/BoardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springweb/board/service/BoardService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +176,7 @@
       <recent name="example.day15" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.AppStart (3)">
+  <component name="RunManager" selected="애플리케이션.AppStart">
     <configuration name="AppStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="springweb.AppStart" />
       <module name="test.main" />
@@ -603,6 +611,17 @@
     <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot" />
     <option featureType="dependencySupport" implementationName="java:org.springframework:spring-webmvc" />
     <option featureType="dependencySupport" implementationName="java:org.projectlombok:lombok" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="260226 오후" />

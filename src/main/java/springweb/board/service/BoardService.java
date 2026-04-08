@@ -3,14 +3,19 @@ package springweb.board.service;
 
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
+import org.springframework.data.domain.Sort;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestParam;
 import springweb.board.dto.BoardDto;
 import springweb.board.entity.BoardEntity;
 import springweb.board.repository.BoardRepository;
 import springweb.member.entity.MemberEntity;
 import springweb.member.repository.MemberRepository;
 
+import java.util.List;
 import java.util.Optional;
 
 @Service @Transactional
@@ -43,5 +48,22 @@ public class BoardService {
         else{ return false; }
     }
 
+
+    // [2] 전체조회
+    public List<BoardDto> findAll(){
+        return boardRepository.findAll(Sort.by( Sort.Direction.DESC,"bno") )
+                .stream() // .stream() 이란? 여러개 자료를 갖는 자료(리스트/배열) 들의 순차적 처리 지원 함수
+                // map( boardEntity -> { return boardEntity.toDto(); } ) // map( 반복변수 -> { return 실행문 } )
+                .map( BoardEntity :: toDto )  // 메소드 레퍼런스란 , 화살표 함수 간결하게 사용하는 문법 ,  클래스명 :: 함수명
+                .toList(); // 리스트타입으로 변환
+
+    }
+
+    // [3] 개별조회
+    public BoardDto findById( long bno ){
+        return boardRepository.findById(bno) // .findById(pk 번호) 개별엔티티조회
+                .orElse(null) // 만일 엔티티가 없으면
+                .toDto(); // 엔티티가 존재하면 dto로 변환
+    }
 
 }

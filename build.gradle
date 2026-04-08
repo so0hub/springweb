@@ -35,6 +35,12 @@ dependencies { // 외부 라이브러리들을 추가하는 곳 , 추가된 라�
     implementation 'io.jsonwebtoken:jjwt-api:0.12.6' // 11] JWT
     runtimeOnly 'io.jsonwebtoken:jjwt-impl:0.12.6' // 11] JWT
     runtimeOnly 'io.jsonwebtoken:jjwt-jackson:0.12.6' // 11] JWT
+
+    implementation 'org.springframework.boot:spring-boot-starter-websocket' // 260408 WebSocket
+    testImplementation 'org.springframework.boot:spring-boot-starter-websocket-test'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+
+
 }
 
 tasks.named('test') {}
