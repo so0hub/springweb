@@ -1,0 +1,26 @@
+package minitest0409.department.service;
+
+import org.springframework.stereotype.Service;
+import org.springframework.web.multipart.MultipartFile;
+
+import java.io.File;
+
+@Service
+public class FileService {
+
+    // 업로드경로1] 로컬 환경
+    private String baseDir = System.getProperty("user.dir");
+    private String uploadDir = baseDir + "/build/resources/main/static/upload/"; // 상세 경로 추가
+
+    // [1] 업로드
+    public String upload(MultipartFile uploadFile){
+        // 1) 만약에 파일이 존재하지 않으면
+        if( uploadFile == null || uploadFile.isEmpty() == true ){
+            return null;} // 업로드 실패 : 파일없어서
+        // 2) 업로드할 파일의 경로 * 서버경로 * , 개발자(src파일) --배포/실행--> 서버(build파일) <--- 클라이언트(사용자)
+        File uploadPath = new File(uploadDir); // 업로드할 uploadDir 을 file객체내 대입
+        if(uploadPath.exists() == false){ // : file객체.exists() : 경로가 존재하면 true
+            uploadPath.mkdir(); //  // file객체.mkdir() : 경로/폴더 생성
+        }
+    }
+}

@@ -4,21 +4,23 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a0b09a5-26f7-40d9-a3fa-f2747f05f375" name="변경" comment="2026-04-02">
-      <change afterPath="$PROJECT_DIR$/src/main/java/springweb/chat/ChatController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springweb/chat/WebSocketConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springweb/member/controller/MemberController3.java" afterDir="false" />
+    <list default="true" id="6a0b09a5-26f7-40d9-a3fa-f2747f05f375" name="변경" comment="2026-04-08">
+      <change afterPath="$PROJECT_DIR$/src/main/java/minitest0409/AppStart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/minitest0409/department/controller/DepartmentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/minitest0409/department/dto/DepartmentDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/minitest0409/department/entity/DepartmentEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/minitest0409/department/repository/DepartmentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/minitest0409/department/service/DepartmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/minitest0409/department/service/FileService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/minitest0409/employee/controller/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/minitest0409/employee/dto/EmployeeDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/minitest0409/employee/entity/EmployeeEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/minitest0409/employee/repository/EmployeeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/minitest0409/employee/service/EmployeeService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/hello-react-project/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/hello-react-project/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/hello-react-project/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/hello-react-project/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/hello-react-project/src/reactweb/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/hello-react-project/src/reactweb/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/hello-react-project/src/reactweb/components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/hello-react-project/src/reactweb/components/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/hello-react-project/src/reactweb/pages/member/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/hello-react-project/src/reactweb/pages/member/Login.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/hello-react-project/src/reactweb/pages/member/board/Write.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/hello-react-project/src/reactweb/pages/member/board/Write.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/springweb/board/controller/BoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springweb/board/controller/BoardController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/springweb/board/entity/BoardEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springweb/board/entity/BoardEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/springweb/board/service/BoardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springweb/board/service/BoardService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/hello-react-project/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/hello-react-project/src/main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sql/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sql/data.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +44,16 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="test" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="test" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="test" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
               </path>
             </expand>
             <select />
@@ -91,60 +103,61 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Gradle.springweb [:example.day02.controller.AppStart.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.springweb [:example.day02.practice2.AppStart.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.springweb [:example.day03.axios.AppStart.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.springweb [:example.day03.롬복.Exam3.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.springweb [:example.day05.mvc.AppStart.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.springweb [:example.day05.practice5.AppStart.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.springweb [:example.day06.AppStart.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.springweb [:example.day06.entity.AppStart.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.springweb [:example.day07.practice7.AppStart.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.springweb [:example.day07.연관관계.AppStart.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.springweb [:example.day07.자바참조.Exam1.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.springweb [:example.day08.AppStart.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.springweb [:example.day09.springbootdeveloper.AppStart.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.springweb [:example.day1.AppStart.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.springweb [:example.day10.Exam2.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.springweb [:example.day10.Exam3.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.springweb [:example.day10.Exam4.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.springweb [:example.day11.AppStart.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.springweb [:example.day12.스프링스레드.AppStart.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.springweb [:example.day12.웹크롤링.AppStart.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.springweb [:example.day13.공공데이터.AppStart.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.springweb [:example.day2.controller.AppStart.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.springweb [:example.day2.servlet.AppStart.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.springweb [:example.종합.practice1_0402.AppStart.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.springweb [:example.종합.예제10.AppStart.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.springweb [:example.종합.예제9.AppStart.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.springweb [:springweb.AppStart.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.springweb [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.springweb 빌드.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.소스 다운로드.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Spring Boot.AppStart (1).executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.AppStart (2).executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.AppStart (3).executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.AppStart (4).executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.AppStart.executor&quot;: &quot;Run&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/SKU-102-19/Desktop/springweb/src/main/resources/spl&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;문제&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.build.tools.auto.reload&quot;: &quot;ALL&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Gradle.springweb [:example.day02.controller.AppStart.main()].executor": "Run",
+    "Gradle.springweb [:example.day02.practice2.AppStart.main()].executor": "Run",
+    "Gradle.springweb [:example.day03.axios.AppStart.main()].executor": "Run",
+    "Gradle.springweb [:example.day03.롬복.Exam3.main()].executor": "Run",
+    "Gradle.springweb [:example.day05.mvc.AppStart.main()].executor": "Run",
+    "Gradle.springweb [:example.day05.practice5.AppStart.main()].executor": "Run",
+    "Gradle.springweb [:example.day06.AppStart.main()].executor": "Run",
+    "Gradle.springweb [:example.day06.entity.AppStart.main()].executor": "Run",
+    "Gradle.springweb [:example.day07.practice7.AppStart.main()].executor": "Run",
+    "Gradle.springweb [:example.day07.연관관계.AppStart.main()].executor": "Run",
+    "Gradle.springweb [:example.day07.자바참조.Exam1.main()].executor": "Run",
+    "Gradle.springweb [:example.day08.AppStart.main()].executor": "Run",
+    "Gradle.springweb [:example.day09.springbootdeveloper.AppStart.main()].executor": "Run",
+    "Gradle.springweb [:example.day1.AppStart.main()].executor": "Run",
+    "Gradle.springweb [:example.day10.Exam2.main()].executor": "Run",
+    "Gradle.springweb [:example.day10.Exam3.main()].executor": "Run",
+    "Gradle.springweb [:example.day10.Exam4.main()].executor": "Run",
+    "Gradle.springweb [:example.day11.AppStart.main()].executor": "Run",
+    "Gradle.springweb [:example.day12.스프링스레드.AppStart.main()].executor": "Run",
+    "Gradle.springweb [:example.day12.웹크롤링.AppStart.main()].executor": "Run",
+    "Gradle.springweb [:example.day13.공공데이터.AppStart.main()].executor": "Run",
+    "Gradle.springweb [:example.day2.controller.AppStart.main()].executor": "Run",
+    "Gradle.springweb [:example.day2.servlet.AppStart.main()].executor": "Run",
+    "Gradle.springweb [:example.종합.practice1_0402.AppStart.main()].executor": "Run",
+    "Gradle.springweb [:example.종합.예제10.AppStart.main()].executor": "Run",
+    "Gradle.springweb [:example.종합.예제9.AppStart.main()].executor": "Run",
+    "Gradle.springweb [:minitest0409.AppStart.main()].executor": "Run",
+    "Gradle.springweb [:springweb.AppStart.main()].executor": "Run",
+    "Gradle.springweb [clean].executor": "Run",
+    "Gradle.springweb 빌드.executor": "Run",
+    "Gradle.소스 다운로드.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.AppStart (1).executor": "Run",
+    "Spring Boot.AppStart (2).executor": "Run",
+    "Spring Boot.AppStart (3).executor": "Run",
+    "Spring Boot.AppStart (4).executor": "Run",
+    "Spring Boot.AppStart.executor": "Run",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/SKU-102-19/Desktop/springweb/src/main/resources/spl",
+    "project.structure.last.edited": "문제",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.build.tools.auto.reload": "ALL",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="example.day09.springbootdeveloper.controller" />
@@ -156,11 +169,11 @@
       <recent name="C:\Users\sku-102-09\IdeaProjects\springweb\src\main\java\example\day09" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\SKU-102-19\Desktop\springweb\src\main\resources\spl" />
       <recent name="C:\Users\SKU-102-19\Desktop\springweb\src\main\java" />
-      <recent name="C:\Users\sku-102-09\IdeaProjects\springweb\src\main\java\example\day09\springbootdeveloper" />
-      <recent name="C:\Users\sku-102-09\IdeaProjects\springweb\src\main\resources\static\종합예제9" />
-      <recent name="C:\Users\sku-102-09\IdeaProjects\springweb\src\main\resources\static" />
+      <recent name="C:\Users\SKU-102-19\Desktop\springweb\src\main\java\example\demo" />
+      <recent name="C:\Users\SKU-102-19\Desktop\springweb\src\main\resources" />
+      <recent name="C:\Users\SKU-102-19\Desktop\springweb\src\main\java\example" />
+      <recent name="C:\Users\SKU-102-19\Desktop\springweb\src\main\resources\spl" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -176,7 +189,7 @@
       <recent name="example.day15" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.AppStart">
+  <component name="RunManager" selected="애플리케이션.minitest0409.AppStart">
     <configuration name="AppStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="springweb.AppStart" />
       <module name="test.main" />
@@ -196,6 +209,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="example.종합.practice1_0402.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="minitest0409.AppStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="minitest0409.AppStart" />
+      <module name="test.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="minitest0409.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -231,27 +257,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppStart (4)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
-      <module name="test.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="example.day16.AppStart" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="example.day16.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.minitest0409.AppStart" />
         <item itemvalue="Spring Boot.AppStart (3)" />
         <item itemvalue="애플리케이션.AppStart" />
         <item itemvalue="Spring Boot.AppStart (1)" />
         <item itemvalue="애플리케이션.example.종합.practice1_0402.AppStart" />
-        <item itemvalue="Spring Boot.AppStart (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -598,7 +610,23 @@
       <option name="project" value="LOCAL" />
       <updated>1775113371970</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="2026-04-08">
+      <option name="closed" value="true" />
+      <created>1775625701532</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1775625701532</updated>
+    </task>
+    <task id="LOCAL-00043" summary="2026-04-08">
+      <option name="closed" value="true" />
+      <created>1775625707005</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1775625707005</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -624,7 +652,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="260226 오후" />
     <MESSAGE value="260227 11:19" />
     <MESSAGE value="260227" />
     <MESSAGE value="2026-02-27" />
@@ -649,7 +676,8 @@
     <MESSAGE value="2026-03-25 오전" />
     <MESSAGE value="2026-03-26 오전" />
     <MESSAGE value="2026-04-02" />
-    <option name="LAST_COMMIT_MESSAGE" value="2026-04-02" />
+    <MESSAGE value="2026-04-08" />
+    <option name="LAST_COMMIT_MESSAGE" value="2026-04-08" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
