@@ -19,7 +19,7 @@ public class DepartmentEntity {
     @GeneratedValue( strategy = GenerationType.IDENTITY )
     private Integer dno; // 부서번호
 
-    @Column( nullable = false , length = 20 )
+    @Column( nullable = false , length = 20 , unique = true )
     private String dname; // 부서명
 
 //    // 사원 번호(FK)

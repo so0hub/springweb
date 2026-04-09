@@ -1,53 +1,42 @@
-package example.day16;
-
-import lombok.RequiredArgsConstructor;
-import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
-@RestController
-@RequiredArgsConstructor
-@RequestMapping("/api/file")
-public class FileController {
-    private final FileService fileService;
+import java.io.File;
+import java.io.IOException;
+import java.util.UUID;
 
-    // [1] 서버에 파일 업로드
-    // method : post
-    // url : http://localhost:8080/api/file
-    // Headers : Content-Type : multipart/form-data
-    // Body : [text] -> [form]  , uploadFile [ file ] 컴퓨터파일선택
-    @PostMapping("")
-    public ResponseEntity<?> upload(MultipartFile uploadFile ){
-        System.out.println("FileController.upload"); // soutm
-        System.out.println("uploadFile = " + uploadFile); // soutp
-        return ResponseEntity.ok( fileService.upload( uploadFile ) );
+@Service
+public class FileService {
+
+
+
+    // 업로드경로1] 로컬 환경
+    private String baseDir = System.getProperty("user.dir"); // C:\Users\SKU-102-00\Desktop\springweb
+    private String uploadDir = baseDir + "/build/resources/main/static/upload/"; // 상세 경로 추가
+    // 업로드경로2] 클라우드 환경 * 추후에 *
+
+    // [1] 업로드
+    public String upload(MultipartFile uploadFile ){
+        // 1) 만약에 파일이 존재하지 않으면
+        if( uploadFile == null || uploadFile.isEmpty() == true ){ return null; } // 업로드 실패 : 파일없어서
+        // 2) 업로드할 파일의 경로 * 서버경로 * ,    개발자(src파일) --배포/실행--> 서버(build파일) <--- 클라이언트(사용자)
+        File uploadPath = new File( uploadDir ); // 업로드할 uploadDir 을 file객체내 대입
+        // *** 만약에 해당 경로의 폴더가 존재하지 않으면 폴더 생성
+        if( uploadPath.exists() == false ){ //  : file객체.exists() : 경로가 존재하면 true
+            uploadPath.mkdir(); // file객체.mkdir() : 경로/폴더 생성
+        }
+        // 3) 업로드 , 실제업로드경로 + 파일명
+        // *** 만약에 서로 다른 사람/요청 이 동일한 파일명으로 다른 파일을 업로드하면 고유식별 깨짐 ***
+        // 즉] 파일명은 동일하지만 다른 파일일 수 있다. UUID 활용 vs 날짜/시간(밀리초) 넣기 vs 게시물 번호 (PK 번호) 넣기
+        String uuid = UUID.randomUUID().toString(); // UUID이란? 중복 없는 난수 문자열 생성 함수(고유성 보장)
+        // * UUID _ 파일명 : UUID 와 파일명 사이에 _ 언더바 구분하자 ( 왜? 추후에 분리해야 하니까 )
+        // * UUID에는 _ 언더바 절대 없다. 하지만 파일명에는 _ 언더바 존재할 수 있다. ( 파일명 치환 )
+        String fileName = uuid+"_"+uploadFile.getOriginalFilename().replaceAll("_","-"); // 업로드할 파일명
+        File uploadRealPath = new File( uploadDir + fileName ); // 파일명과 경로 연결해서 최종적인 경로 파일객체 생성
+        try {
+            uploadFile.transferTo( uploadRealPath ); // 업로드파일을 특정한 경로에 이송/복사 한다. *예외처리 발생*
+            return fileName; // 업로드된 파일명은 DB에 저장한다.
+        } catch (IOException e) { System.out.println( e ); }
+        return null;
     }
-
-    // [2] 서버에 파일 다운로드
-
-    // [3] 서버에 파일 삭제
-
-}
-/*
-    1.업로드 : 클라이언트가 서버에게 데이터(파일)을 전송 하는 행위
-    2.다운로드 : 서버가 클라이언트에게 데이터(파일)을 전송 하는 행위
-    3.스트림 : 데이터가 이동하는 흐름 , 스트림API / 파일처리 / 네트워크 등등
-    4.버퍼 : 데이터가 이동하는 흐름간의 처리속도를 일정하게 하기위한 임시 메모리 * 흐름 하는 순간에도 누군가의 기억! *
-    5.자바입출력 클래스
-        1) FileInputStream
-        2) ServletOutputStream 등등
-    [ 스프링 파일 업로드 구현 ] * 내장 업로드객체 지원한다.
-        1. MultipartFile 클래스 : 첨부파일(바이트) 매핑하는 인터페이스
-        2. 사용법
-            첨부파일1개 : MultipartFile 변수명
-            첨부파일N개 : List< MultipartFile > 변수명
-        3. content-Type : multipart/form-data
-*/
-
-/*
-    (1) 쿼리스트링 방식 ,  URL ? 변수명 = 값 @RequestParam
-    (2) 본문 방식 , URL , { "변수명" : 값 } , content-type : application/json @RequestBody
-    (3) 대용량(바이트) 방식 , URL , form , content-type : multipart/form-data
- */
+} // class end

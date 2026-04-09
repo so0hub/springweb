@@ -19,7 +19,7 @@ public class EmployeeEntity {
     @GeneratedValue( strategy = GenerationType.IDENTITY )
     private Integer eno; // 사원번호
 
-    @Column( nullable = false, length = 10 )
+    @Column( nullable = false, length = 10 , unique = true )
     private String ename; // 사원이름
 
     @Column( nullable = false,length = 10 )
