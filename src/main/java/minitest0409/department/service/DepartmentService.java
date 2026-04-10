@@ -43,22 +43,15 @@ public class DepartmentService {
     }
 
     // 부서 수정
-    public boolean dpUpdate(DepartmentDto departmentDto){
-        Optional<DepartmentEntity> optional
-                =departmentRepository.findById(departmentDto.getDno());
-
-        if(optional.isPresent()){
-            DepartmentEntity departmentEntity = optional.get();
-            departmentEntity.setDname(departmentDto.getDname());
-
-            return true;
-        }
-        return false;
+    public DepartmentDto dpUpdate(Integer dno,DepartmentDto request){
+       DepartmentEntity departmentEntity = departmentRepository.findById(dno).orElseThrow();
+       departmentEntity.setDname(request.getDname());
+       return departmentEntity.toDto();
     }
 
     // 부서 삭제
-    public boolean dpDelete(Integer dno){
-        departmentRepository.deleteById(dno);
-        return true;
+    public void dpDelete(Integer dno){
+        DepartmentEntity department = departmentRepository.findById(dno).orElseThrow();
+        departmentRepository.delete(department);
     }
 }
