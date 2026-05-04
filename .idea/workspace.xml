@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a0b09a5-26f7-40d9-a3fa-f2747f05f375" name="변경" comment="2026-04-09">
+    <list default="true" id="6a0b09a5-26f7-40d9-a3fa-f2747f05f375" name="변경" comment="2026-03-11">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/hello-react-project/src/minitestreact/DepartmentManager.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/hello-react-project/src/minitestreact/DepartmentManager.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/example/day16/FileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/day16/FileController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/minitest0409/department/controller/DepartmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/minitest0409/department/controller/DepartmentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/minitest0409/department/service/DepartmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/minitest0409/department/service/DepartmentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/day06/practice6/MovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/day06/practice6/MovieController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +39,18 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="test" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="test" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build setup" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="test" type="f1a62948:ProjectNode" />
                 <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
               </path>
             </expand>
@@ -55,11 +64,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
+        <option value="Interface" />
         <option value="JUnit5 Test Class" />
         <option value="AnnotationType" />
         <option value="HTML File" />
-        <option value="Kotlin Interface" />
-        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -75,8 +83,8 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/so0hub/springweb.git&quot;,
-    &quot;accountId&quot;: &quot;e909df8b-7b12-4d7e-8442-f97db09bdae0&quot;
+    &quot;url&quot;: &quot;git@github.com:/so0hub/springweb.git&quot;,
+    &quot;accountId&quot;: &quot;7b9df017-a91e-46e5-919d-6aba1ff1595d&quot;
   }
 }</component>
   <component name="ProblemsViewState">
@@ -112,17 +120,10 @@
     &quot;Gradle.springweb [:example.day10.Exam2.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.springweb [:example.day10.Exam3.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.springweb [:example.day10.Exam4.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.springweb [:example.day11.AppStart.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.springweb [:example.day12.스프링스레드.AppStart.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.springweb [:example.day12.웹크롤링.AppStart.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.springweb [:example.day13.공공데이터.AppStart.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.springweb [:example.day2.controller.AppStart.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.springweb [:example.day2.servlet.AppStart.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.springweb [:example.종합.practice1_0402.AppStart.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.springweb [:example.종합.예제10.AppStart.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.springweb [:example.종합.예제9.AppStart.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.springweb [:minitest0409.AppStart.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.springweb [:springweb.AppStart.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.springweb [clean].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.springweb 빌드.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.소스 다운로드.executor&quot;: &quot;Run&quot;,
@@ -139,12 +140,12 @@
     &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/SKU-102-19/Desktop/springweb/src/main/resources/spl&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/sku-102-09/IdeaProjects/springweb/src/main/java/example/day09&quot;,
     &quot;project.structure.last.edited&quot;: &quot;문제&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.build.tools.auto.reload&quot;: &quot;ALL&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.build&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -153,16 +154,14 @@
       <recent name="example.day04.ch3" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\SKU-102-19\Desktop\springweb\src\main\resources\spl" />
-      <recent name="C:\Users\SKU-102-19\Desktop\springweb\src\main\java\example\day11" />
       <recent name="C:\Users\sku-102-09\IdeaProjects\springweb\src\main\java\example\day09" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\SKU-102-19\Desktop\springweb\src\main\java" />
-      <recent name="C:\Users\SKU-102-19\Desktop\springweb\src\main\java\example\demo" />
-      <recent name="C:\Users\SKU-102-19\Desktop\springweb\src\main\resources" />
-      <recent name="C:\Users\SKU-102-19\Desktop\springweb\src\main\java\example" />
-      <recent name="C:\Users\SKU-102-19\Desktop\springweb\src\main\resources\spl" />
+      <recent name="C:\Users\sku-102-09\IdeaProjects\springweb\src\main\java\example\day09\springbootdeveloper" />
+      <recent name="C:\Users\sku-102-09\IdeaProjects\springweb\src\main\resources\static\종합예제9" />
+      <recent name="C:\Users\sku-102-09\IdeaProjects\springweb\src\main\resources\static" />
+      <recent name="C:\Users\sku-102-09\IdeaProjects\springweb\src\main\resources\static1\종합예제9" />
+      <recent name="C:\Users\sku-102-09\IdeaProjects\springweb\src\main\resources\static\example\example2" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -171,20 +170,17 @@
       <recent name="example.day09.springbootdeveloper.controller" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="practice1_0402.task.entity" />
-      <recent name="springweb.board.entity" />
-      <recent name="springweb.board.service" />
-      <recent name="example.day16" />
-      <recent name="example.day15" />
+      <recent name="example.day08" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.minitest0409.AppStart">
+  <component name="RunManager">
     <configuration name="AppStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="springweb.AppStart" />
+      <option name="MAIN_CLASS_NAME" value="example.day09.springbootdeveloper.AppStart" />
       <module name="test.main" />
+      <shortenClasspath name="ARGS_FILE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="springweb.*" />
+          <option name="PATTERN" value="example.day09.springbootdeveloper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -192,12 +188,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="example.종합.practice1_0402.AppStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="example.종합.practice1_0402.AppStart" />
+    <configuration name="Exam2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.day10.Exam2" />
       <module name="test.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="example.종합.practice1_0402.*" />
+          <option name="PATTERN" value="example.day10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -205,12 +201,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="minitest0409.AppStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="minitest0409.AppStart" />
+    <configuration name="Exam3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.day10.Exam3" />
       <module name="test.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="minitest0409.*" />
+          <option name="PATTERN" value="example.day10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -218,13 +214,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppStart (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="Exam4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.day10.Exam4" />
+      <module name="test.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="example.day10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppStart (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
       <module name="test.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="example.종합.practice1_0402.AppStart" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="example.day09.springbootdeveloper.AppStart" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="example.종합.practice1_0402.*" />
+          <option name="PATTERN" value="example.day09.springbootdeveloper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -232,34 +241,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppStart (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
-      <module name="test.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="springweb.AppStart" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="springweb.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.AppStart (2)" />
+      <item itemvalue="애플리케이션.AppStart" />
+      <item itemvalue="애플리케이션.Exam2" />
+      <item itemvalue="애플리케이션.Exam3" />
+      <item itemvalue="애플리케이션.Exam4" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.minitest0409.AppStart" />
-        <item itemvalue="Spring Boot.AppStart (3)" />
+        <item itemvalue="애플리케이션.Exam4" />
+        <item itemvalue="애플리케이션.Exam3" />
+        <item itemvalue="애플리케이션.Exam2" />
+        <item itemvalue="Spring Boot.AppStart (2)" />
         <item itemvalue="애플리케이션.AppStart" />
-        <item itemvalue="Spring Boot.AppStart (1)" />
-        <item itemvalue="애플리케이션.example.종합.practice1_0402.AppStart" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.240" />
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.30387.90" />
       </set>
     </attachedChunks>
   </component>
@@ -511,160 +513,25 @@
       <option name="project" value="LOCAL" />
       <updated>1773393892638</updated>
     </task>
-    <task id="LOCAL-00031" summary="2026-03-17">
-      <option name="closed" value="true" />
-      <created>1773711538488</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1773711538488</updated>
-    </task>
-    <task id="LOCAL-00032" summary="2026-03-17">
-      <option name="closed" value="true" />
-      <created>1773725996581</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1773725996581</updated>
-    </task>
-    <task id="LOCAL-00033" summary="2026-03-18">
-      <option name="closed" value="true" />
-      <created>1773807413060</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1773807413060</updated>
-    </task>
-    <task id="LOCAL-00034" summary="2026-03-18">
-      <option name="closed" value="true" />
-      <created>1773826030548</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1773826030548</updated>
-    </task>
-    <task id="LOCAL-00035" summary="2026-03-19">
-      <option name="closed" value="true" />
-      <created>1773892053861</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1773892053861</updated>
-    </task>
-    <task id="LOCAL-00036" summary="2026-03-20">
-      <option name="closed" value="true" />
-      <created>1773975158337</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1773975158337</updated>
-    </task>
-    <task id="LOCAL-00037" summary="2026-03-24">
-      <option name="closed" value="true" />
-      <created>1774330757719</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1774330757719</updated>
-    </task>
-    <task id="LOCAL-00038" summary="2026-03-25">
-      <option name="closed" value="true" />
-      <created>1774404893040</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1774404893040</updated>
-    </task>
-    <task id="LOCAL-00039" summary="2026-03-25 오전">
-      <option name="closed" value="true" />
-      <created>1774412598315</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1774412598315</updated>
-    </task>
-    <task id="LOCAL-00040" summary="2026-03-26 오전">
-      <option name="closed" value="true" />
-      <created>1774489891036</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1774489891037</updated>
-    </task>
-    <task id="LOCAL-00041" summary="2026-04-02">
-      <option name="closed" value="true" />
-      <created>1775113371970</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1775113371970</updated>
-    </task>
-    <task id="LOCAL-00042" summary="2026-04-08">
-      <option name="closed" value="true" />
-      <created>1775625701532</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1775625701532</updated>
-    </task>
-    <task id="LOCAL-00043" summary="2026-04-08">
-      <option name="closed" value="true" />
-      <created>1775625707005</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1775625707005</updated>
-    </task>
-    <task id="LOCAL-00044" summary="2026-04-09">
-      <option name="closed" value="true" />
-      <created>1775712872926</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1775712872926</updated>
-    </task>
-    <task id="LOCAL-00045" summary="2026-04-09">
-      <option name="closed" value="true" />
-      <created>1775712885659</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1775712885659</updated>
-    </task>
-    <task id="LOCAL-00046" summary="2026-04-09">
-      <option name="closed" value="true" />
-      <created>1775729372914</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1775729372914</updated>
-    </task>
-    <option name="localTasksCounter" value="47" />
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="UnknownFeatures">
     <option featureType="dependencySupport" implementationName="java:org.springframework:spring-core" />
     <option featureType="dependencySupport" implementationName="java:jakarta.persistence:jakarta.persistence-api" />
-    <option featureType="dependencySupport" implementationName="java:org.seleniumhq.selenium:selenium-java" />
-    <option featureType="dependencySupport" implementationName="java:io.projectreactor:reactor-core" />
     <option featureType="dependencySupport" implementationName="java:org.springframework.data:spring-data-commons" />
-    <option featureType="dependencySupport" implementationName="java:org.thymeleaf:thymeleaf" />
     <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot" />
     <option featureType="dependencySupport" implementationName="java:org.springframework:spring-webmvc" />
     <option featureType="dependencySupport" implementationName="java:org.projectlombok:lombok" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="260225" />
+    <MESSAGE value="260225 오전" />
+    <MESSAGE value="260225 오후" />
+    <MESSAGE value="260226 practice2" />
+    <MESSAGE value="260226" />
+    <MESSAGE value="260226 오후" />
+    <MESSAGE value="260227 11:19" />
     <MESSAGE value="260227" />
     <MESSAGE value="2026-02-27" />
     <MESSAGE value="2026-03-03" />
@@ -679,35 +546,7 @@
     <MESSAGE value="2026-03-10 practice7" />
     <MESSAGE value="2026-03-10 practice6" />
     <MESSAGE value="2026-03-11" />
-    <MESSAGE value="2026-03-17" />
-    <MESSAGE value="2026-03-18" />
-    <MESSAGE value="2026-03-19" />
-    <MESSAGE value="2026-03-20" />
-    <MESSAGE value="2026-03-24" />
-    <MESSAGE value="2026-03-25" />
-    <MESSAGE value="2026-03-25 오전" />
-    <MESSAGE value="2026-03-26 오전" />
-    <MESSAGE value="2026-04-02" />
-    <MESSAGE value="2026-04-08" />
-    <MESSAGE value="2026-04-09" />
-    <option name="LAST_COMMIT_MESSAGE" value="2026-04-09" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/example/day15/JWTController.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/src/main/java/springweb/member/controller/MemberController2.java</url>
-          <line>14</line>
-          <properties field="memberService" class="springweb.member.controller.MemberController2" />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <option name="LAST_COMMIT_MESSAGE" value="2026-03-11" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
